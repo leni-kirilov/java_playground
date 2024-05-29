@@ -1,3 +1,5 @@
+package v8;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -15,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * TODO create repo, push to GH, add CI/CD
  * TODO add links to tutorials about the newly learn thing so that I can revise it quickly
  */
-public class Java8StreamsTests {
+public class StreamsTests {
 
     @Test
     public void filter_outOddnumbers() {
