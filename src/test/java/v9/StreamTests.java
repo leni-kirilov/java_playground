@@ -56,7 +56,7 @@ public class StreamTests {
                         .stream(aWordFromCharacters.split(""))
                         .flatMap((s) -> {
                             Object o = map.get(s);
-                            return (o == null) ? Stream.of(o) : Stream.empty();
+                            return (o == null) ? Stream.empty() : Stream.of(o);
                         })
                         .toArray()
         );
