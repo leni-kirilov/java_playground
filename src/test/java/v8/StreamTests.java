@@ -1,4 +1,4 @@
-package v8.stream;
+package v8;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
@@ -30,8 +30,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * <p>
  * TODO implement in groovy and in kotlin
  */
-public class StreamsTests {
-
+public class StreamTests {
 
     @Test
     public void createStream() {
