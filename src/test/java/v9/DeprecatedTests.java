@@ -2,7 +2,7 @@ package v9;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.kirilov.v9.DeprecatedClass;
+import com.kirilov.v9.DeprecatedClass;
 
 public class DeprecatedTests {
     @Test

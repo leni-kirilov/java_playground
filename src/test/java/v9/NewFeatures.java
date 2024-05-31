@@ -14,17 +14,15 @@ import static org.junit.jupiter.api.Assertions.*;
  * https://www.baeldung.com/new-java-9
  * https://www.digitalocean.com/community/tutorials/java-9-features-with-examples
  *
- *
  * <p>
- * - TODO Jigsaw modular java - https://openjdk.org/projects/jigsaw/quick-start
- * - TODO Multi-Release JAR Files - https://www.baeldung.com/java-multi-release-jar
- * <p>
+ * - Jigsaw modular java - https://openjdk.org/projects/jigsaw/quick-start {@link module-info.java}
  * - Stream extensions - dropWhile, takeWhile, Optional to Stream, https://www.baeldung.com/java-9-stream-api . {@link StreamTests}
  * - Collection Factory Methods - {@link CollectionsFactoryTests}
  * - Process API - {@link #testProcessHandling}
  * - try-with-resources {@link #testTryWithResources()}
  * - Interface Private Method - {@link #testPrivateInterfaceMethod()}
  * - @Deprecated with more methods - {@link DeprecatedTests#testClassIsMarkedWithNewDeprecatedAnnotation()}
+ * - Multi-Release JAR Files - https://www.baeldung.com/java-multi-release-jar
  */
 public class NewFeatures {
 
