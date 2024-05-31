@@ -5,7 +5,7 @@ module com.kirilov.java.playground.test {
 
     // --------------------------- CONSUMING -----------------------
     //my module needs it and any consumer of my module must provide it
-    requires static org.junit.jupiter.api;
+    requires org.junit.jupiter.api;
 
     //internally required. my users don't need to think about it
     requires static com.kirilov.java.playground.main;
