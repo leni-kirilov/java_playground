@@ -2,8 +2,11 @@ package v8;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import v8.model.NotOverwriting;
+import v8.model.OverwritingInterface;
+import v8.model.WithDefaultMethod;
 
-import static v8.WithDefaultMethod.DEFAULT_IMPLEMENTATION;
+import static v8.model.WithDefaultMethod.DEFAULT_IMPLEMENTATION;
 
 
 public class DefaultMethodInterfaceTests {
@@ -25,22 +28,5 @@ public class DefaultMethodInterfaceTests {
         String result = instance.getType();
         Assertions.assertEquals("I'm ovewriting this!", result);
     }
-
 }
 
-interface WithDefaultMethod {
-
-    String DEFAULT_IMPLEMENTATION = "no type defined";
-
-    default String getType(){
-        return DEFAULT_IMPLEMENTATION;
-    }
-}
-
-class NotOverwriting implements WithDefaultMethod {}
-class OverwritingInterface implements WithDefaultMethod {
-    @Override
-    public String getType() {
-        return "I'm ovewriting this!";
-    }
-}

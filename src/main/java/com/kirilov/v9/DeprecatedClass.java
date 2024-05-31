@@ -1,4 +1,4 @@
-package org.kirilov.v9;
+package com.kirilov.v9;
 
 /**
  * @deprecated - don't remove. this is an example
