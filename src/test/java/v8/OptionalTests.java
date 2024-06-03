@@ -3,6 +3,7 @@ package v8;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 public class OptionalTests {
@@ -44,8 +45,8 @@ public class OptionalTests {
 
         //AND Using orElseThrow throws an exception
         Assertions.assertThrowsExactly(
-                RuntimeException.class,
-                () -> optionalValue.orElseThrow(() -> new RuntimeException("Value not present")),
+                NoSuchElementException.class,
+                () -> optionalValue.orElseThrow(),
                 "Exception was not thrown!"
         );
     }
