@@ -20,6 +20,7 @@ module com.kirilov.java.playground.test {
 
     //classes from this package are usable by ANY consumer
     exports v9;
+    exports v10;
 
     //classes from this package are usable only by a SPECIFIC customer
     exports v8 to org.junit.platform.commons;
