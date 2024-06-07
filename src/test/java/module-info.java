@@ -24,6 +24,7 @@ module com.kirilov.java.playground.test {
     exports v9;
     exports v10;
     exports v11;
+    exports v12;
 
     //classes from this package are usable only by a SPECIFIC customer
     exports v8 to org.junit.platform.commons;
