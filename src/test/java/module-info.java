@@ -1,6 +1,8 @@
 import v8.model.OverwritingInterface;
 import v8.model.WithDefaultMethod;
 
+import java.net.http.HttpClient;
+
 module com.kirilov.java.playground.test {
 
     // --------------------------- CONSUMING -----------------------
@@ -16,7 +18,7 @@ module com.kirilov.java.playground.test {
     requires transitive java.desktop;
     requires java.net.http;
 
-    uses javax.swing.JPanel; //from my requires, this specific Service/class I use
+    uses HttpClient; //from my requires, this specific Service/class I use
 
     // --------------------------- PROVIDING -----------------------
 
@@ -25,6 +27,7 @@ module com.kirilov.java.playground.test {
     exports v10;
     exports v11;
     exports v12;
+    exports v13;
 
     //classes from this package are usable only by a SPECIFIC customer
     exports v8 to org.junit.platform.commons;
