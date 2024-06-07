@@ -8,6 +8,7 @@ import java.util.function.Function;
 /**
  * PREVIEW features
  * Switch with string and conditionals
+ * String blocks
  */
 public class NewFeatures {
 
