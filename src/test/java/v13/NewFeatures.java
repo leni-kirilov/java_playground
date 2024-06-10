@@ -7,22 +7,19 @@ import java.util.function.Function;
 
 /**
  * PREVIEW features
- * Switch with string and conditionals
+ * Switch with string Expression and conditionals
  * String blocks
  */
 public class NewFeatures {
 
     @Test
-    public void switchString() {
+    public void switchStringExpression() {
         var input = "one";
 
         var result = switch (input) {
-            case "one":
-                yield true;
-            case "two":
-                yield 2;
-            default:
-                yield false;
+            case "one" -> true;
+            case "two" -> 2;
+            default -> false;
         };
 
         if (result instanceof Boolean) {
@@ -52,7 +49,7 @@ public class NewFeatures {
     }
 
     @Test
-    public void stringBlocks(){
+    public void stringBlocks() {
         var block = """
                 This is a multiline
                 "Special" text
