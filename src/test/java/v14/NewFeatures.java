@@ -9,7 +9,7 @@ import java.util.Random;
  * PREVIEW features
  * Records
  * instanceof smarter  if
- * Packaging Tool - to test in other projects
+ * Packaging Tool - to test in other projects https://openjdk.org/jeps/392
  */
 public class NewFeatures {
 
