@@ -13,7 +13,6 @@ module com.kirilov.java.playground.test {
     requires static com.kirilov.java.playground.main;
     uses com.kirilov.v9.DeprecatedClass;
 
-
     //my consumers will automatically get access to these modules, too
     requires transitive java.desktop;
     requires java.net.http;
@@ -29,6 +28,7 @@ module com.kirilov.java.playground.test {
     exports v12;
     exports v13;
     exports v14;
+    exports v15;
 
     //classes from this package are usable only by a SPECIFIC customer
     exports v8 to org.junit.platform.commons;
