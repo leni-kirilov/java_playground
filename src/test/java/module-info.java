@@ -16,23 +16,25 @@ module com.kirilov.java.playground.test {
     //my consumers will automatically get access to these modules, too
     requires transitive java.desktop;
     requires java.net.http;
+    requires jdk.incubator.vector;
 
     uses HttpClient; //from my requires, this specific Service/class I use
 
     // --------------------------- PROVIDING -----------------------
 
     //classes from this package are usable by ANY consumer
-    exports v9;
+    exports v9 to org.junit.platform.commons;
     exports v10;
     exports v11;
     exports v12;
     exports v13;
     exports v14;
     exports v15;
+    exports v16 to org.junit.platform.commons;
 
     //classes from this package are usable only by a SPECIFIC customer
     exports v8 to org.junit.platform.commons;
 
-    //this specific interface by this particular implementation
-    provides WithDefaultMethod with OverwritingInterface;
+//    //this specific interface by this particular implementation
+//    provides WithDefaultMethod with OverwritingInterface;
 }
