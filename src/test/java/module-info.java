@@ -1,5 +1,4 @@
-import v8.model.OverwritingInterface;
-import v8.model.WithDefaultMethod;
+import com.kirilov.v9.DeprecatedClass;
 
 import java.net.http.HttpClient;
 
@@ -11,7 +10,7 @@ module com.kirilov.java.playground.test {
 
     //internally required. my users don't need to think about it
     requires static com.kirilov.java.playground.main;
-    uses com.kirilov.v9.DeprecatedClass;
+    uses DeprecatedClass;
 
     //my consumers will automatically get access to these modules, too
     requires transitive java.desktop;
@@ -23,14 +22,15 @@ module com.kirilov.java.playground.test {
     // --------------------------- PROVIDING -----------------------
 
     //classes from this package are usable by ANY consumer
-    exports v9 to org.junit.platform.commons;
+    exports v9;
     exports v10;
     exports v11;
     exports v12;
     exports v13;
     exports v14;
     exports v15;
-    exports v16 to org.junit.platform.commons;
+    exports v16;
+    exports v17;
 
     //classes from this package are usable only by a SPECIFIC customer
     exports v8 to org.junit.platform.commons;
