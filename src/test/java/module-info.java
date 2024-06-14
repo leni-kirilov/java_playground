@@ -16,6 +16,7 @@ module com.kirilov.java.playground.test {
     requires transitive java.desktop;
     requires java.net.http;
     requires jdk.incubator.vector;
+    requires jdk.httpserver;
 
     uses HttpClient; //from my requires, this specific Service/class I use
 
@@ -31,6 +32,7 @@ module com.kirilov.java.playground.test {
     exports v15;
     exports v16;
     exports v17;
+    exports v18;
 
     //classes from this package are usable only by a SPECIFIC customer
     exports v8 to org.junit.platform.commons;
