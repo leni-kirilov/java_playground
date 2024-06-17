@@ -10,7 +10,7 @@ import java.util.function.Function;
  * Switch with string Expression and conditionals
  * String blocks
  */
-public class NewFeatures {
+public class NewFeaturesJava13Tests {
 
     @Test
     public void switchStringExpression() {

@@ -23,7 +23,7 @@ import java.util.Random;
  * <p>
  * - Various performance improvements such as GC1 in parallel and AppClassDataSharing
  */
-public class NewFeatures {
+public class NewFeaturesJava10Tests {
 
     @Test
     public void varString() {

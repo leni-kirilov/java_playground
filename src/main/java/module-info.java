@@ -5,4 +5,5 @@ module com.kirilov.java.playground.main {
     provides DeprecatedClass with DeprecatedClass;
 
     exports com.kirilov.v15;
+    exports com.kirilov.v19 to com.kirilov.java.playground.test;
 }

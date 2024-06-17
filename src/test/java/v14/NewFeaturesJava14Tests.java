@@ -11,7 +11,7 @@ import java.util.Random;
  * instanceof smarter  if
  * Packaging Tool - to test in other projects https://openjdk.org/jeps/392
  */
-public class NewFeatures {
+public class NewFeaturesJava14Tests {
 
     private record JavaFeatures(String name, boolean isCool, int numberOfFeatures) {
     }
