@@ -31,7 +31,7 @@ import java.time.Duration;
  *}
  */
 
-public class NewFeatures {
+public class NewFeaturesJava18Tests {
 
     public static final int TEST_PORT = 18088;
     HttpServer server;

@@ -15,7 +15,7 @@ import java.util.function.Predicate;
  * - New Files methods - writeString, readString {@link StringTests}
  * - Collection toArray
  */
-public class NewFeatures {
+public class NewFeaturesJava11Tests {
 
     @Test
     public void notPredicate() {

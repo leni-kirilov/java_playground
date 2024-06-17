@@ -24,7 +24,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * - @Deprecated with more methods - {@link DeprecatedTests#testClassIsMarkedWithNewDeprecatedAnnotation()}
  * - Multi-Release JAR Files - https://www.baeldung.com/java-multi-release-jar
  */
-public class NewFeatures {
+public class NewFeaturesJava9Tests {
 
     @Test
     public void testProcessHandling() {

@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
  * String - indent, transform
  * Files - mismatch
  */
-public class NewFeatures {
+public class NewFeaturesJava12Tests {
 
     @Test
     public void collectorTeeing() {

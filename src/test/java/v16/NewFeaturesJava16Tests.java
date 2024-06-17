@@ -17,7 +17,7 @@ import java.util.stream.IntStream;
  * Part of Day - parsing verbose
  * (incubator) Vector API multiplication
  */
-public class NewFeatures {
+public class NewFeaturesJava16Tests {
 
     @Test
     public void streamToList() {

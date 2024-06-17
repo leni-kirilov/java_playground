@@ -23,19 +23,20 @@ module com.kirilov.java.playground.test {
     // --------------------------- PROVIDING -----------------------
 
     //classes from this package are usable by ANY consumer
-    exports v9;
-    exports v10;
-    exports v11;
-    exports v12;
-    exports v13;
-    exports v14;
-    exports v15;
-    exports v16;
-    exports v17;
-    exports v18;
+    exports v8;
 
     //classes from this package are usable only by a SPECIFIC customer
-    exports v8 to org.junit.platform.commons;
+    exports v9 to org.junit.platform.commons;
+    exports v10 to org.junit.platform.commons;
+    exports v11 to org.junit.platform.commons;
+    exports v12 to org.junit.platform.commons;
+    exports v13 to org.junit.platform.commons;
+    exports v14 to org.junit.platform.commons;
+    exports v15 to org.junit.platform.commons;
+    exports v16 to org.junit.platform.commons;
+    exports v17 to org.junit.platform.commons;
+    exports v18 to org.junit.platform.commons;
+    exports v19 to org.junit.platform.commons;
 
 //    //this specific interface by this particular implementation
 //    provides WithDefaultMethod with OverwritingInterface;

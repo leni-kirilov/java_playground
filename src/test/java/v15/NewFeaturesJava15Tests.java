@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Sealed Classes - https://openjdk.org/jeps/409
  */
-public class NewFeatures {
+public class NewFeaturesJava15Tests {
 
     @Test
     public void sealedHierarchy() {

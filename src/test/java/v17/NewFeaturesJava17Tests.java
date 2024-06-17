@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 /**
  * Switch pattern extended - https://openjdk.org/jeps/441 as of Java 21 because switches changed a few times
  */
-public class NewFeatures {
+public class NewFeaturesJava17Tests {
 
     @Test
     public void patternMatching_constant() {
