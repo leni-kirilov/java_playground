@@ -4,10 +4,14 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.SequencedCollection;
 
 /**
  * String Literals (PREVIEW) - thus only pseudo-code {@link #stringTemplate()}
+ * Sequenced Collections - getFirst/Last , remove, add, + reversed(). Applicable to ordered Lists, Sets and Maps. {@link #reversedList()} & {@link #sequencedCollections()}
  */
 public class NewFeaturesJava21Tests {
 
@@ -71,6 +75,12 @@ public class NewFeaturesJava21Tests {
 
         //EXPECT processing the 2 collections in sequence is possible
         Assertions.assertEquals("second", findBiggerFirstElement(List.of(sequencedList, sequencedSet)));
+    }
+
+    @Test
+    public void reversedList() {
+        var someIntegers = List.of(5, 3, 2, 1);
+        Assertions.assertEquals(1, someIntegers.reversed().getFirst());
     }
 
     private String findBiggerFirstElement(List<SequencedCollection<String>> sequencedCollections) {
