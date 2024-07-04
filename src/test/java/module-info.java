@@ -39,6 +39,8 @@ module com.kirilov.java.playground.test {
     exports v19 to org.junit.platform.commons;
     exports v21 to org.junit.platform.commons;
 
+    exports com.kirilov.interview.revolut.test to org.junit.platform.commons;
+
 //    //this specific interface by this particular implementation
 //    provides WithDefaultMethod with OverwritingInterface;
 }
