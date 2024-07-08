@@ -1,4 +1,4 @@
-package com.kirilov.interview.revolut.test;
+package com.kirilov.interview.test.revolut;
 
 import com.kirilov.interview.revolut.loadbalancer.LoadBalancerFactory;
 import com.kirilov.interview.revolut.loadbalancer.LoadBalancerMode;
