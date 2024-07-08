@@ -8,5 +8,7 @@ module com.kirilov.java.playground.main {
     exports com.kirilov.v19 to com.kirilov.java.playground.test;
     exports com.kirilov.interview.revolut;
     exports com.kirilov.interview.revolut.loadbalancer;
+    exports com.kirilov.interview.solutions;
+    exports com.kirilov.interview.netflix;
     exports com.kirilov.interview;
 }
