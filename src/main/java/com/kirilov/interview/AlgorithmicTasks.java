@@ -3,7 +3,6 @@ package com.kirilov.interview;
 public class AlgorithmicTasks {
     //Given an array of integers and an integer target, return the indices of two numbers in the array whose sum equals the target.
     //Find the smallest and largest numbers in an unsorted array of integers.
-    //Write a program to reverse a string in place.
     //Write a program to find duplicates in an array of integers.
 
     //For a given rotated array that is sorted, write a program code to find a particular element in the array.
