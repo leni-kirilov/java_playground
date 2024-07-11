@@ -11,4 +11,5 @@ module com.kirilov.java.playground.main {
     exports com.kirilov.interview.solutions;
     exports com.kirilov.interview.netflix;
     exports com.kirilov.interview;
+    exports com.kirilov.interview.solutions.janken;
 }

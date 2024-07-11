@@ -5,7 +5,6 @@ public class AlgorithmicTasks {
     //Find the smallest and largest numbers in an unsorted array of integers.
     //Write a program to find duplicates in an array of integers.
 
-    //For a given rotated array that is sorted, write a program code to find a particular element in the array.
     //Write a program to find if the permutation of a string (given) is a palindrome or not.
     //For an array of integers and unique values, write a program code to decipher if the sum of any two integers in the array is equal to a given value.
     //For a given two-dimensional array with integers of unique values, write a program to make the entire column or row of the array zero if any element in the array is zero.
@@ -18,15 +17,12 @@ public class AlgorithmicTasks {
     //Write an error-free program to check if a given binary tree is balanced or not.
 
     //Write a phone number word decoder. Write a Java program that will accept a contact number with letters and convert it to a contact number with digits only.
-    //Write code to design a vending machine.
     //Write a Java program that returns an MD5 hash.
-    //Create a Java Singleton class.
     //Print all permutations of String in both iterative and Recursive ways.
     //Given an array of size N, sort the array elements by completing functions heapify() and buildHeap() to implement Heap Sort.
 
-    //Create Morse code translator in Python. Take in a string with alphanumeric characters in lower or upper case. The string can also contain any special characters handled in Morse code. The function should return the Morse code equivalent for the string.
-
-    //Here’s the “rock, paper, scissors" challenge:
+    //Create Morse code translator. Take in a string with alphanumeric characters in lower or upper case. The string can also contain any special characters handled in Morse code. The function should return the Morse code equivalent for the string.
+    //Write code to design a vending machine.
 
     //Netflix
     //Improve search results by enabling users to see relevant search results without being hindered by typos. This will be called the “Group Similar Titles" feature.
