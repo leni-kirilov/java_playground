@@ -26,9 +26,7 @@ public class AlgorithmicTasks {
 
     //Netflix
     //Improve search results by enabling users to see relevant search results without being hindered by typos. This will be called the “Group Similar Titles" feature.
-    //Given an array of integers and a value, you have to determine whether there are any three integers in the array whose sum equals the given value.
     //Given the head nodes of two linked lists that may or may not intersect, you have to determine if they intersect and return the point of intersection. Else return null.
-    //Convert binary tree into a doubly-linked list.
     //Print all braces combinations for a given value n, so they are balanced.
     //Serialize a binary tree to file and deserialize it back to a tree.
     //Search for a given number in a sorted rotated array by some arbitrary number. Return -1 if the number does not exist. Assumption- the array does not contain duplicates.
