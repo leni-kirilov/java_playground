@@ -1,4 +1,4 @@
-package com.kirilov.interview.solutions;
+package com.kirilov.interview.hackerrank;
 
 import java.util.List;
 import java.util.LongSummaryStatistics;

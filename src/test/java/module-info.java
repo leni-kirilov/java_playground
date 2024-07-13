@@ -42,6 +42,7 @@ module com.kirilov.java.playground.test {
     exports com.kirilov.interview.test.revolut to org.junit.platform.commons;
     exports com.kirilov.interview.test.solutions to org.junit.platform.commons;
     exports com.kirilov.interview.test.netflix to org.junit.platform.commons;
+    exports com.kirilov.interview.test.hackerrank        to org.junit.platform.commons;
 
 //    //this specific interface by this particular implementation
 //    provides WithDefaultMethod with OverwritingInterface;

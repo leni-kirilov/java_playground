@@ -1,4 +1,4 @@
-package com.kirilov.interview.test.solutions;
+package com.kirilov.interview.test.hackerrank;
 
 import com.kirilov.interview.solutions.FindMedian;
 import org.junit.jupiter.api.Assertions;
