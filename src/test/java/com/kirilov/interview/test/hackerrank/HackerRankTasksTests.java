@@ -83,4 +83,23 @@ public class HackerRankTasksTests {
                 HackerRankTasks.findZigZagSequence(new int[]{3, 2, 1})
         );
     }
+
+    @Test
+    public void ceaserLetter(){
+        Assertions.assertEquals("b", HackerRankTasks.caesarCipher("a", 1));
+        Assertions.assertEquals("z", HackerRankTasks.caesarCipher("a", 25));
+        Assertions.assertEquals("a", HackerRankTasks.caesarCipher("z", 1));
+        Assertions.assertEquals("v", HackerRankTasks.caesarCipher("a", 99));
+    }
+
+    @Test
+    public void ceaserMultiple(){
+        Assertions.assertEquals("cd", HackerRankTasks.caesarCipher("ab", 2));
+        Assertions.assertEquals("DE", HackerRankTasks.caesarCipher("AB", 3));
+    }
+
+    @Test
+    public void ceaserSkipNonletters(){
+        Assertions.assertEquals("fg-ii", HackerRankTasks.caesarCipher("ab-dd", 5));
+    }
 }

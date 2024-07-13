@@ -87,4 +87,27 @@ public class HackerRankTasks {
 
         return a;
     }
+
+
+    public static String caesarCipher(String s, int k) {
+        char[] letters = s.toCharArray();
+        char[] result = new char[s.length()];
+
+        int key = k % 26; //to sanitize too big keys
+
+        for (int i = 0; i < s.length(); i++) {
+
+            char character = letters[i];
+            if (Character.isLetter(character)) {
+                char base = Character.isUpperCase(character) ? 'A' : 'a';
+                result[i] = (char) (base + (character - base + key) % 26);
+
+            } else {
+                result[i] = letters[i];
+            }
+
+        }
+
+        return new String(result);
+    }
 }
