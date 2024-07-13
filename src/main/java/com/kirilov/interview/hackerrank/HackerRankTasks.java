@@ -1,9 +1,6 @@
 package com.kirilov.interview.hackerrank;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class HackerRankTasks {
 
@@ -63,5 +60,31 @@ public class HackerRankTasks {
         }
 
         return counts;
+    }
+
+    //fix the code with jsut 3 lines changed
+    public static int[] findZigZagSequence(int[] a) {
+        int n = a.length;
+        Arrays.sort(a);
+        int mid = (n) / 2;
+        int temp = a[mid];
+        a[mid] = a[n - 1];
+        a[n - 1] = temp;
+
+        int start = mid + 1;
+        int end = n - 2;
+        while (start < end) {
+            temp = a[start];
+            a[start] = a[end];
+            a[end] = temp;
+            start = start + 1;
+            end = end - 1;
+        }
+        for (int i = 0; i < n; i++) {
+            if (i > 0) System.out.print(" ");
+            System.out.print(a[i]);
+        }
+
+        return a;
     }
 }

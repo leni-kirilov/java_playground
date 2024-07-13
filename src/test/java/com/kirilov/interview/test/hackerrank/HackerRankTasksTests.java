@@ -75,4 +75,12 @@ public class HackerRankTasksTests {
                 HackerRankTasks.countingSort(List.of(2, 1, 2, 0)).toArray()
         );
     }
+
+    @Test
+    public void zigZag() {
+        Assertions.assertArrayEquals(
+                new int[]{1, 3, 2},
+                HackerRankTasks.findZigZagSequence(new int[]{3, 2, 1})
+        );
+    }
 }
