@@ -1,4 +1,4 @@
-package com.kirilov.interview.solutions;
+package com.kirilov.interview.hackerrank;
 
 import java.util.HashSet;
 import java.util.List;

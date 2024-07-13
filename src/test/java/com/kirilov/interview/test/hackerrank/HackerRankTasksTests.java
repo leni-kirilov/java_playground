@@ -1,6 +1,6 @@
-package com.kirilov.interview.test.solutions;
+package com.kirilov.interview.test.hackerrank;
 
-import com.kirilov.interview.solutions.HackerRankTasks;
+import com.kirilov.interview.hackerrank.HackerRankTasks;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
