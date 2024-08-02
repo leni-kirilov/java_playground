@@ -12,6 +12,8 @@ jobs:
 
     runs-on: ubuntu-latest
     permissions:
+      checks: write
+      pull-requests: write
       contents: read
 
     steps:
@@ -42,3 +44,18 @@ jobs:
 
     - name: Build with Gradle Wrapper
       run: ./gradlew build --parallel --daemon
+
+    - name: Upload Test Results as .zip of artifacts
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: Test Results
+        path: |
+          build/test-results/**/*.xml
+          build/reports/tests/test/
+
+    - name: Publish Test Results to githubActions UI
+      uses: EnricoMi/publish-unit-test-result-action@v2
+      if: always()
+      with:
+        files: build/test-results/**/*.xml
